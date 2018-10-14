@@ -1,0 +1,4 @@
+# ignore
+.vscode/
+node_modules/
+init.png
