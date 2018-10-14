@@ -33,7 +33,7 @@ const fs = require("fs");
   };
 
   const browser = await puppeteer.launch();
-  const url = `https://marketingplatform.google.com/about/partners/find-a-partner?page=40`;
+  const url = `https://marketingplatform.google.com/about/partners/find-a-partner?page=1`;
   const partners = await extractPartners(url);
 
   //Write list of partners to json file
